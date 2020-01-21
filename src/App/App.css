@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Barlow", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background: #f8f8f8;
+}
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.MuiFab-extended{
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+}
+.custome-container{
+  width: 100%;
+  max-width: 1397px;
+  margin:auto;
+  min-width: 1265px;
+}
+.top-barback{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  max-height: 200px;
+  height: 20vh;
+  background: #222E61;
+  opacity: 0.8;
+  z-index: -1000;
+}
+.desk{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 20px ;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #aaa;
+  border-radius: 20px ;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+.wrapper-inputRange .input-range__track--active{
+  background: #222E61 !important;
+}
+.wrapper-inputRange .input-range__slider{
+  background: #222E61 !important;
+  border-color: #222E61 !important; 
+}
+@media screen and (min-width : 1397px){
+  .custome-container{
+    margin-top: 40px;
+  }
+}
